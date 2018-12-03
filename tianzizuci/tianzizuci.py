@@ -102,6 +102,7 @@ if __name__ == '__main__':
     words = hanzi.matchWords(word, word3, word4)
     if words:
         for i in words:
-            print(word1 + i + "+" + word2 + i + "+" + i + word3 + "+" + i + word4)
+            print(word1 + i + "+" + word2 + i + "+" + i + word3 + "+" + i +
+                  word4)
     else:
-        print ("没有合适的词组")
+        print("没有合适的词组")
