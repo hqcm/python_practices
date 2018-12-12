@@ -66,7 +66,8 @@ class Group(object):
 
 
 if __name__ == '__main__':
-    k = 1000
+    k = 100000
+    #极限出线情形需要更加大量的样本
     point = []
     while k:
         group = Group()
